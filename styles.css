@@ -1,0 +1,47 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: rgb(157, 149, 168);
+    padding-left: 17%;
+}
+
+.title {
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgb(142, 116, 184);
+    width: 600px;
+    height: 100px;
+    padding: 15px 0px;
+    margin-left: 130px;
+}
+
+.group {
+    background-color: rgb(183, 173, 201);
+    width: 600px;
+    margin-left: 130px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.button {
+    box-sizing: border-box;
+    background-color: rgb(148, 136, 170);
+    text-align: center;
+    width: 200px;
+    height: 150px;
+    margin: 8px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid rgb(131, 119, 153);;
+}
+
+.img {
+    border: 3px solid rgb(131, 119, 153);;
+    margin-bottom: 10px;
+    width: 150px;
+    height: auto;
+}
