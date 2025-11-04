@@ -4,23 +4,23 @@
 
 body {
     background-color: rgb(157, 149, 168);
-    padding-left: 17%;
 }
 
 .title {
     box-sizing: border-box;
     text-align: center;
     background-color: rgb(142, 116, 184);
-    width: 600px;
+    width: 80%;
     height: 100px;
-    padding: 15px 0px;
-    margin-left: 130px;
+    padding: 30px;
+    margin: 0 auto;
+    display: block;
 }
 
 .group {
     background-color: rgb(183, 173, 201);
-    width: 600px;
-    margin-left: 130px;
+    width: 80%;
+    margin: 0 auto;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -44,4 +44,26 @@ body {
     margin-bottom: 10px;
     width: 150px;
     height: auto;
+}
+
+#img {
+    border: 3px solid rgb(131, 119, 153);;
+    width: 150px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.text {
+    text-align: left;
+    padding-left: 2%
+}
+
+.subtitle h3{
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgb(142, 116, 184);
+    width: 100%;
+    height: 50px;
+    padding: 10px;
 }
